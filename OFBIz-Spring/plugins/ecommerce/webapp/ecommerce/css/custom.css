@@ -1,0 +1,123 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+body {
+    font-size: 0.9rem;
+}
+a,.btn-link{
+    color: #158ae2;
+}
+a.btn-primary {
+    color: white!important;
+}
+#ecom-mainarea{
+    padding:10px;
+    margin-top: 20px;
+    position: relative;
+    text-align: left;
+    flex: 1;
+}
+.card {
+    margin-bottom:20px!important;
+}
+.d-flex.justify-content-center a {
+    margin-bottom: 10px;
+}
+
+.card .card-img-top {
+    width: auto;
+    height: 140px;
+}
+.card-body ul {
+    padding : 0px;
+}
+
+.products-card .card-title a {
+    white-space: normal;
+}
+
+.gallery {
+    white-space: nowrap;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+.detail-image {
+    height: 300px!important;
+    width: auto!important;
+    max-width: 300px!important;
+ }
+
+.quick-links a, #paginationBox a {
+    color: #000000;
+}
+
+.footer-block {
+    background: #f8f9fa;
+}
+
+.cart-image {
+    width:100px;
+    height:100%;
+}
+
+label.required:after {
+    content:"*";
+    color: #ff0000;
+    font-size: larger;
+    margin-left:2px;
+}
+
+.amount {
+    text-align:right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#ffffff!important;
+}
+.navbar-dark .nav-item:hover, .navbar-dark .nav-item .nav-link:hover{
+    background: #555555!important;
+}
+
+#parentContainer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+li {
+    display: inline;
+}
+.jGrowl {
+  z-index: 9999;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: fixed;
+}
+.jGrowl.center {
+  top: 10px;
+  width: 50%;
+  left: 25%;
+}
+button.jGrowl-close {
+    float: right;
+}
+
+.hidden {
+    height: 0;
+    visibility: hidden;
+}

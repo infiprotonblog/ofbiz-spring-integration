@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<entity-engine-xml>
+
+    <Content contentId="LuceneCONTENT" contentTypeId="WEB_SITE_PUB_PT" contentName="Lucene Content Root" description="Lucene Content Categories"/>
+
+    <Content contentId="LCNTGIZMOS" contentTypeId="WEB_SITE_PUB_PT" ownerContentId="LuceneCONTENT" contentName="Lucene Gizmos" description="Lucene Gizmos" createdDate="2001-05-13 12:00:00.000" createdByUserLogin="admin"/>
+    <ContentAssoc contentId="LuceneCONTENT" contentIdTo="LCNTGIZMOS" contentAssocTypeId="SUB_CONTENT" fromDate="2001-05-13 12:00:00.000" createdDate="2001-05-13 12:00:00.000" createdByUserLogin="admin"/>
+    <ContentAttribute contentId="LCNTGIZMOS" attrName="publishOperation" attrValue="HAS_USER_ROLE"/>
+
+    <DataResource dataResourceId="LCNTGIZMOSLRG" dataResourceTypeId="ELECTRONIC_TEXT" mimeTypeId="text/html" localeString="en_US" isPublic="Y" dataResourceName="Large Lucene Gizmos"/>
+    <ElectronicText dataResourceId="LCNTGIZMOSLRG">
+        <textData><![CDATA[
+            <div>
+                <ol>
+                    <li>Large Lucene Gizmos are for those who loves them large!</li>
+                    <li>A lot of them and more to come</li>
+                </ol>
+            </div>
+        ]]></textData>
+    </ElectronicText>
+    <Content contentId="LCNTGIZMOSLRG" contentTypeId="WEB_SITE_PUB_PT" ownerContentId="LCNTGIZMOS" contentName="Large Lucene Gizmos" description="Large Widgets" createdDate="2001-05-13 12:00:00.000" createdByUserLogin="admin"
+        dataResourceId="LCNTGIZMOSLRG" mimeTypeId="text/html" localeString="en_US"/>
+    <ContentAssoc contentId="LCNTGIZMOS" contentIdTo="LCNTGIZMOSLRG" contentAssocTypeId="SUB_CONTENT" fromDate="2001-05-13 12:00:00.000" createdDate="2001-05-13 12:00:00.000" createdByUserLogin="admin"/>    
+    
+    <DataResource dataResourceId="LCNTGIZMOSSML" dataResourceTypeId="ELECTRONIC_TEXT" mimeTypeId="text/html" localeString="en_US" isPublic="Y" dataResourceName="Small Lucene Gizmos"/>
+    <ElectronicText dataResourceId="LCNTGIZMOSSML">
+        <textData><![CDATA[
+            <div>
+                <ol>
+                    <li>Not only for children</li>
+                    <li>Just need to be able to hold it in your hand</li>
+                </ol>
+            </div>
+        ]]></textData>
+    </ElectronicText>
+    <Content contentId="LCNTGIZMOSSML" contentTypeId="WEB_SITE_PUB_PT" ownerContentId="LCNTGIZMOS" contentName="Small Lucene Gizmos" description="Large Widgets" createdDate="2001-05-13 12:00:00.000" createdByUserLogin="admin"
+        dataResourceId="LCNTGIZMOSSML" mimeTypeId="text/html" localeString="en_US"/>
+    <ContentAssoc contentId="LCNTGIZMOS" contentIdTo="LCNTGIZMOSSML" contentAssocTypeId="SUB_CONTENT" fromDate="2001-05-13 12:00:00.000" createdDate="2001-05-13 12:00:00.000" createdByUserLogin="admin"/>
+    
+    <DataResource dataResourceId="GIZMOSLRG" dataResourceTypeId="ELECTRONIC_TEXT" mimeTypeId="text/html" localeString="en_US" isPublic="Y" dataResourceName="Advocacy"/>
+    <ElectronicText dataResourceId="GIZMOSLRG">
+        <textData><![CDATA[
+            <div>
+                <ol>
+                    <li>Lucene Gizmos are the best ones</li>
+                    <li>Don't use widgets, use gizmos !</li>
+                </ol>
+            </div>
+        ]]></textData>
+    </ElectronicText>
+    <Content contentId="GIZMOSLRG" contentTypeId="WEB_SITE_PUB_PT" ownerContentId="LCNTGIZMOS" contentName="Advocacy" description="Advocacy" createdDate="2001-05-13 12:00:00.000" createdByUserLogin="admin"
+        dataResourceId="GIZMOSLRG" mimeTypeId="text/html" localeString="en_US"/>
+    <ContentAssoc contentId="LCNTGIZMOS" contentIdTo="GIZMOSLRG" contentAssocTypeId="SUB_CONTENT" fromDate="2001-05-13 12:00:00.000" createdDate="2001-05-13 12:00:00.000" createdByUserLogin="admin"/>
+
+</entity-engine-xml>
