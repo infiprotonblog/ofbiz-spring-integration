@@ -6,8 +6,9 @@
 * Now, OFBIz supports Spring's Dependency Injection and REST API implementation through Spring Boot
 		
 ## How to use
-
-* Load the Data  --> gradlew loadAll
-* Start Ofbiz --> gradlew ofbiz
+* $ git clone https://github.com/infiprotonblog/ofbiz-spring-integration.git
+* $ cd ofbiz-spring-integration/OFBIz-Spring
+* Load the Data  --> $ gradlew loadAll
+* Start Ofbiz --> $ gradlew ofbiz
 * Run https://localhost:8443/ofbiz-spring/api/ --> Hello World message
 * Run https://localhost:8443/ofbiz-spring/api/party --> all parties
